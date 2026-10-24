@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "MiniLedger",
+    "slug": "miniledger",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#f6f7f9"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "expo-asset",
+      ["expo-image-picker", { "photosPermission": "MiniLedger uses your photos to attach a loan receipt.", "cameraPermission": "MiniLedger uses the camera to take a loan receipt photo." }],
+      ["expo-media-library", { "photosPermission": "MiniLedger checks whether an attached receipt still exists in your gallery.", "savePhotosPermission": "MiniLedger saves compressed receipt photos to your gallery.", "isAccessMediaLocationEnabled": false }]
+    ]
+  }
+}

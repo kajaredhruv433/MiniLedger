@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.expo/
+coverage/
+*.log
+.DS_Store
+backend/uploads/*
+!backend/uploads/.gitkeep
+.jest-cache/
